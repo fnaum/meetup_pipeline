@@ -8,7 +8,7 @@ pipeline {
     }
     stage('test') {
       steps {
-        sh 'echo "running unit tests"'
+        sh 'echo "running a unit tests"'
       }
     }
     stage('release') {
